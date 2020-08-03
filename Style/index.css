@@ -20,6 +20,7 @@
         div.header>h1 {
             color: #8cc63f;
             text-align: center;
+            text-transform: uppercase;
             font-size: 4vw;
             text-shadow: 10px 10px 5px 5px black;
         }
@@ -27,6 +28,7 @@
         div.header>h1>span {
             font-size: 0.7vw;
             color: #ffffff;
+            text-transform: uppercase;
             display: block;
             line-height: 0;
             margin-left: 8%;
@@ -41,6 +43,7 @@
             -webkit-background-clip: text;
             font-weight: bolder;
             text-align: center;
+            text-transform: uppercase;
             display: block;
         }
         
@@ -72,11 +75,13 @@
         div.lappara>h1 {
             color: #8cc63f;
             font-size: 3vw;
+            text-transform: uppercase;
         }
         
         div.lappara>span {
             font-size: 4vw;
             font-family: Impact;
+            text-transform: uppercase;
         }
         
         div.lappara>p {
@@ -95,13 +100,15 @@
         
         .laptxt {
             background-color: #8cc63f;
-            width: 30%;
-            padding: 2% 0% 8% 0%;
+            height: 40vh;
+            padding: 2% 4% 2% 12%;
             text-align: center;
-            transform: rotate(90deg);
+            text-transform: uppercase;
+            text-orientation: mixed;
+            writing-mode: vertical-rl;
             position: absolute;
-            right: 6%;
-            top: 53%;
+            right: 10%;
+            top: 45%;
             font-weight: bolder;
             font-size: 1.2vw;
             -webkit-text-fill-color: #719e36;
@@ -174,13 +181,15 @@
         
         .txt {
             background-color: #8cc63f;
-            width: 30%;
-            padding: 2% 0% 8% 0%;
+            height: 60vh;
+            padding: 2% 4% 2% 12%;
             text-align: center;
-            transform: rotate(90deg);
+            text-transform: uppercase;
+            text-orientation: mixed;
+            writing-mode: vertical-rl;
             position: absolute;
-            right: 6%;
-            top: 57%;
+            right: 9%;
+            top: 41%;
             font-weight: bolder;
             font-size: 1.7vw;
             -webkit-text-fill-color: #719e36;
@@ -206,11 +215,13 @@
         div.para>h1 {
             color: #8cc63f;
             font-size: 5vw;
+            text-transform: uppercase;
         }
         
         div.para>span {
             font-size: 6vw;
             font-family: Impact;
+            text-transform: uppercase;
         }
         
         div.para>p {
@@ -480,6 +491,7 @@
             color: #8cc63f;
             font-size: 4vw;
             margin-top: 10vh;
+            text-transform: uppercase;
         }
         
         div.fpara>h1>span {
@@ -488,10 +500,12 @@
             display: block;
             margin-left: 10%;
             font-family: monospace;
+            text-transform: uppercase;
         }
         
         .footer {
             position: absolute;
+            text-transform: uppercase;
             top: 690vh;
             width: 100%;
             padding: 2% 10%;
