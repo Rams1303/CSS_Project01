@@ -60,8 +60,6 @@
         
         .kb {
             width: 100%;
-            position: absolute;
-            top: 160vh;
             box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.5);
         }
         
@@ -229,10 +227,13 @@
         }
         
         .st1 {
+            height: 60vh;
             color: #727272;
-            transform: rotate(270deg);
+            writing-mode: vertical-lr;
+            text-orientation: sideways-right;
+            transform: rotate(180deg);
             position: absolute;
-            left: -10%;
+            left: 2%;
             top: 155vh;
             z-index: 100;
             font-size: 1vw;
@@ -311,11 +312,14 @@
         }
         
         .st2 {
+            height: 60vh;
             color: #ffffff;
-            transform: rotate(270deg);
+            writing-mode: vertical-lr;
+            text-orientation: sideways-right;
+            transform: rotate(180deg);
             position: absolute;
-            left: -8%;
-            top: 285vh;
+            left: 2%;
+            top: 255vh;
             z-index: 100;
             font-size: 1vw;
             font-family: DejaVu Sans Mono, monospace;
@@ -350,11 +354,14 @@
         }
         
         .st3 {
+            height: 60vh;
             color: #727272;
-            transform: rotate(270deg);
+            writing-mode: vertical-lr;
+            text-orientation: sideways-right;
+            transform: rotate(180deg);
             position: absolute;
-            left: -11%;
-            top: 400vh;
+            left: 2%;
+            top: 380vh;
             z-index: 100;
             font-size: 1vw;
             font-family: DejaVu Sans Mono, monospace;
@@ -388,11 +395,14 @@
         }
         
         .st4 {
+            height: 60vh;
             color: #727272;
-            transform: rotate(270deg);
+            writing-mode: vertical-lr;
+            text-orientation: sideways-right;
+            transform: rotate(180deg);
             position: absolute;
-            left: -8%;
-            top: 510vh;
+            left: 2%;
+            top: 475vh;
             z-index: 100;
             font-size: 1vw;
             font-family: DejaVu Sans Mono, monospace;
